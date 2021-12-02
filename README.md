@@ -1,7 +1,7 @@
-# Trabajos Freelance
+# Freelance Jobs
 
-Repositorio de proyectos freelance Creados por @fabiobareiro
+Repositories of freelance jobs projects created by @fabiobareiro
 
-## Proyectos
+## Last Projects
 
-1 - [Landing Page - Portfolio Profesional Web](https://fabiobareiro.github.io/freelance-landing-page/portfolio-profesional/)
+1 - [Landing Page - Portfolio Professional Web](https://fabiobareiro.github.io/freelance-landing-page/portfolio-profesional/)
