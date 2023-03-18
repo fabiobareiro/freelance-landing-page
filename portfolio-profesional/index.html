@@ -11,7 +11,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
-    
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- Etiquetas meta info para SEO y Posicionamiento -->
     <title>Laura Rossi - Arquitectura de Interior & Exterior</title>
     <meta
@@ -111,21 +111,24 @@
             <h2
               class="hero-image-tittle"
               style="--hero-tittle-color: var(--white-color)"
+              data-aos="zoom-in"
+              data-aos-duration="900"
+        
             >
-              Hola!<br />¿Buscando profesional?
+              Hola!<br />¿Buscando Renderista Profesional?
             </h2>
-            <a href="#portfolio" class="btn">TRABAJOS</a>
+            <a href="#portfolio" class="btn" data-aos="flip-left" data-aos-anchor-placement="center-bottom" data-aos-duration="1000">TRABAJOS</a>
           </div>
         </aside>
       </article>
     </section>
     <section id="acerca" class="about section container full-lg-screen">
-      <article class="text-lg-right">
+      <article class="text-lg-right" data-aos="fade-right" data-aos-duration="1000">
         <aside class="tittle-main text-center text-lg-right">
           <h1>Title</h1>
-          <h5>Subtitle</h5>
+          <h5 class="">Subtitle</h5>
         </aside>
-        <p>
+        <p> 
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
           perspiciatis, optio labore mollitia quo dignissimos magnam consectetur
           ut esse corrupti impedit minus libero deserunt exercitationem tempore
@@ -139,12 +142,12 @@
         </p>
       </article>
       <article class="text-center">
-        <img class="gray-scale" src="assets/avatar.png" alt="foto-laurarossi" />
+        <img class="gray-scale" src="assets/avatar.png" alt="foto-laurarossi" data-aos="fade-down" data-aos-duration="1000" />
         <div class="text-center">
-          <a class="btn" href="" target="_blank" rel="noopener">HOJA DE RUTA</a>
+          <a class="btn" href="" target="_blank" rel="noopener" data-aos="fade-up" data-aos-duration="1000">HOJA DE RUTA</a>
         </div>
       </article>
-      <article class="text-center work-flow">
+      <article class="text-center work-flow" data-aos="fade-left" data-aos-duration="1000">
         <h2>Habilidades</h2>
         <section class="box-skills">
           <div class="skills-btn box-shadow-1">
@@ -1129,5 +1132,9 @@
       >
     </footer>
     <script src="script.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   </body>
 </html>

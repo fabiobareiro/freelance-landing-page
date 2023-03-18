@@ -43,7 +43,7 @@ body {
 a {
   color: var(--link-color);
   transition: all 0.5 ease-out;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.3rem;
 }
 
 a:hover {
@@ -311,7 +311,7 @@ input {
 
 .hero-image-opacity {
   width: 100%;
-  min-height: 100vh;
+  min-height: 120vh;
   display: flex; /* para lograr el centrado perfecto de elementos hijos */
   justify-content: center;
   align-items: center;
@@ -325,7 +325,7 @@ input {
 
 .hero-image-tittle {
   color: var(--hero-tittle-color);
-  font-size: 7vw;
+  font-size: 8vw;
 }
 
 /* Menu */
@@ -487,10 +487,10 @@ input {
 
 .btn {
   border-radius: 0.5rem;
-  padding: 1rem 0;
-  margin-top: 1rem;
+  padding: 1.5rem 0;
+  margin-top: 10rem;
   display: inline-block;
-  width: 200px;
+  width: 300px;
   font-weight: bold;
   text-align: center;
   text-decoration: none;
