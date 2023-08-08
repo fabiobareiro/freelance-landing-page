@@ -17,7 +17,7 @@
   --white-alpha-shadow-color: rgba(255, 255, 255, 0.5);
   --font: "Rubik", sans-serif;
   --max-width: 1200px;
-  --header-height: 4rem;
+  --header-height: 10rem;
 }
 
 /* Reset */
@@ -361,7 +361,7 @@ input {
 
 .menu a {
   padding: 1rem;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: bold;
   text-align: center;
   text-decoration: none;
@@ -616,7 +616,7 @@ input {
 
 .logo a {
   color: var(--white-color);
-  font-size: 2rem;
+  font-size: 0.5rem;
   text-decoration: none;
 }
 
